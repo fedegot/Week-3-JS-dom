@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JS dom</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+
+
+<div class="container">
+<div class="picture">
+    <!-- <img src="./pic/pin.jpg" alt="pinpong" class="img"> -->
+
+</div>
+
+<div id="Mscore">
+ <div id="Mscore1"><button id="totscore1">PRESS HERE TO RESET THE COUNT</button></div>
+ <!-- <div class="Mscore2"><p class="totscore2">score ner</p></div> -->
+</div>
+
+
+<div class="button">
+    <div id="score">SCORE</div>
+    <div id="lscore">LOSE</div>
+</div>
+
+
+
+
+</div>
+
+
+<script>
+
+///////////////// total score /////////////////
+
+var count=0
+
+document.getElementById("score").onclick=function(){
+    count= Math.floor(Math.random() * 20);
+    this.innerHTML=(`total score ${count}`)};
+
+///////////////// total lose ////////////////
+
+var count1=0
+
+document.getElementById("lscore").onclick=function(){
+    count1=count1+1;
+    this.innerHTML=(`total lose ${count1}`)};
+
+///////////////// RESET THE COUNT ///////////////
+
+
+document.getElementById("totscore1").onclick=function(){
+    count=0
+    count1=0
+    document.getElementById("score").innerHTML=(`total score ${count}`);
+    document.getElementById("lscore").innerHTML=(`total lose ${count1}`);
+}
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

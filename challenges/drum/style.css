@@ -1,0 +1,22 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+#container div {
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+#picture {
+  margin: 50px;
+  margin-left: 250px;
+}

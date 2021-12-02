@@ -1,0 +1,82 @@
+#body {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  background-color: darkgrey;
+  flex-direction: column;
+  height: 500px;
+  max-height: 500px;
+  max-width: 600px;
+  border: 1px solid black;
+}
+
+.picture {
+  flex: 1;
+  background-color: rgb(252, 236, 10);
+  background-image: url("pic/pin.jpg");
+  background-size: 100% auto;
+}
+
+.img {
+  height: 300px;
+}
+
+.Mscore {
+  display: flex;
+  flex-direction: column;
+  background-color: darksalmon;
+  align-items: flex-end;
+  border: 1px solid black;
+  height: 100px;
+}
+
+#Mscore {
+  display: flex;
+  flex-direction: column;
+}
+
+#Mscore1 {
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+#totscore1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.Mscore2 {
+  flex: 1;
+  background-color: blueviolet;
+  width: 100%;
+}
+
+.totscore2 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+}
+#score {
+  /* width: 50%; */
+  height: 100px;
+  flex: 1;
+  border: 1px solid black;
+}
+
+#lscore {
+  /* width: 50%; */
+  height: 100px;
+  flex: 1;
+  border: 1px solid black;
+}

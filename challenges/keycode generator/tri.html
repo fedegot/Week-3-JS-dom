@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Keyboard Events: Key/Code</title>
+</head>
+<body>
+    <input type="text" id="message">
+    <p id="event"></p>
+    <p id="code"></p>
+
+    <script>
+        let textBox = document.getElementById('message');
+        textBox.addEventListener('keydown', (event) => {
+            document.getElementById("event").innerHTML = (`key=${event.key}`);
+            document.getElementById("code").innerHTML = (`code=${event.code}`);
+
+        });
+    </script>
+</body>
+</html>

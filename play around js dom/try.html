@@ -1,0 +1,63 @@
+<head>
+    <title></title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+  
+<body>
+    
+    <p>Click the button to add new elements to the array.</p>
+  
+    <button id ="button1" onclick="pushFunction()">Add elements</button>
+    <button onclick="resett()">reset</button>
+
+  
+    <p id="geeks"></p>
+  
+    <script>
+
+     
+    /// CALCULATION RANDOM TILL 6 
+    let list = [];
+    let sum = 0;
+    let button = document.getElementById("button1");
+    let write = document.getElementById("geeks");
+
+
+    // function resett(){ /// RESET TO 0 THE VALUE
+    // list.length = 0;
+    // sum = 0 
+    // write.innerHTML = (`Your score is reset at 0, five second to reset the count`);
+    // };
+
+    function pushFunction(){
+    let score = Math.floor(Math.random() * 6);
+    list.push(score);
+    sum += score;
+
+    // for(let i = 0; i < list.length; i++) {
+    //       sum += list[i];
+    //  }
+    write.innerHTML = sum;
+
+    if (sum >= 20){
+    write.innerHTML = (`congratulation last dice: ${score} and your total score is: ${sum}`), sum =0, list.length = 0;}
+    else if (score <= 1){
+    write.innerHTML = (`your last dice was: ${score} game over `), sum =0, list.length = 0;}
+}
+
+    
+
+
+
+
+
+
+    </script>
+  
+</body>
+  
+</html>

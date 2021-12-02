@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>DRUM</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+<div id = "container">
+<div>A = boom</div>
+<div>S = clap</div>
+<div>D = hihat</div>
+<div>F = kick</div>
+<div>Q = openhat</div>
+<div>W = RIDE</div>
+<div>E = snare</div>
+<div>R = TINK</div>
+<div>T = Tom</div>
+</div>
+<div id= "picture">  <img src="./giphy.gif">  </div>
+
+
+<!-- ////// BOOM ///// -->
+    <audio id="boom" controls style="display:none">
+        <source src="../drum/sounds/boom.wav" type="audio/wav"> Your browser does not support the audio element.
+      </audio>
+
+<!-- ////// CLAP ///// -->
+      <audio id="clap" controls style="display:none">
+        <source src="../drum/sounds/clap.wav" type="audio/wav"> Your browser does not support the audio element.
+      </audio>
+
+ <!-- ////// HIHAT ///// -->
+      <audio id="hihat" controls style="display:none">
+        <source src="../drum/sounds/hihat.wav" type="audio/wav"> Your browser does not support the audio element.
+      </audio>
+
+<!-- ////// KICK ///// -->
+<audio id="kick" controls style="display:none">
+<source src="../drum/sounds/kick.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+
+<!-- ////// OPENHAT ///// -->
+<audio id="openhat" controls style="display:none">
+    <source src="../drum/sounds/openhat.wav" type="audio/wav"> Your browser does not support the audio element.
+    </audio>
+
+<!-- ////// RIDE    ///// -->
+<audio id="ride" controls style="display:none">
+    <source src="../drum/sounds/ride.wav" type="audio/wav"> Your browser does not support the audio element.
+    </audio>
+
+<!-- ////// SNARE ///// -->
+<audio id="snare" controls style="display:none">
+    <source src="../drum/sounds/snare.wav" type="audio/wav"> Your browser does not support the audio element.
+    </audio>
+
+
+<!-- ////// TINK  ///// -->
+<audio id="tink" controls style="display:none">
+<source src="../drum/sounds/tink.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+
+
+<!-- ////// TOM  ///// -->
+<audio id="tom" controls style="display:none">
+<source src="../drum/sounds/tom.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 65) {
+    document.getElementById('boom').play();
+  };
+  if (e.keyCode == 83) {
+    document.getElementById('clap').play();
+  };
+  if (e.keyCode == 68) {
+    document.getElementById('hihat').play();
+  };
+  if (e.keyCode == 70) {
+    document.getElementById('kick').play();
+  };
+  if (e.keyCode == 81) {
+    document.getElementById('openhat').play();
+  };
+  if (e.keyCode == 87) {
+    document.getElementById('ride').play();
+  };
+  if (e.keyCode == 69) {
+    document.getElementById('snare').play();
+  };
+  if (e.keyCode == 82) {
+    document.getElementById('tink').play();
+  };
+  if (e.keyCode == 84) {
+    document.getElementById('tom').play();
+  };
+});
+
+
+
+</script>
+    
+</body>
+</html>

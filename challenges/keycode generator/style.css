@@ -1,0 +1,109 @@
+#body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+#main {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: mediumslateblue;
+  height: 200px;
+  margin: 0px;
+}
+
+#bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 90px;
+  width: 100%;
+  background-color: cadetblue;
+  
+}
+/* /////////////////// */
+
+.eventK {
+  /* background-color: red; */
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  
+
+}
+
+.eventKey {
+  text-align: center;
+  /* background-color: rosybrown; */
+  height: 100%;
+}
+
+.eventResK {
+  /* background-color: black; */
+  height: 60%;
+  font-size: 50px;
+  
+}
+
+#eventResk1{
+
+
+}
+
+/* /////////////////// */
+
+.eventC {
+  /* background-color: rgb(47, 0, 255); */
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.eventCode {
+  text-align: center;
+  /* background-color: rgb(255, 0, 0); */
+  height: 100%;
+}
+
+.eventResC {
+  /* background-color: rgb(255, 121, 121); */
+  height: 60%;
+  font-size: 50px;
+}
+
+/* /////////////////// */
+
+.eventW {
+  /* background-color: rgb(0, 255, 21); */
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.eventWhich {
+  text-align: center;
+  /* background-color: rgb(134, 134, 134); */
+  height: 100%;
+}
+
+.eventResW {
+  /* background-color: rgb(31, 55, 110); */
+  height: 60%;
+  font-size: 50px;
+}

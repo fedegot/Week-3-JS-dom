@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Keycode Generator    </title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src='script.js'></script>
+
+
+
+
+
+</head>
+<body>
+    <div id="main">
+    <div id="topmain"><p>WRITE A LETTER OR A NUMBER</p></div>
+    <input type="text" id="message">
+</div>
+
+    <div id="bottom">
+
+
+<div class="eventK">
+    
+<div class="eventKey">EVENT.KEY</div>
+<div class="eventResK"><p id="eventResK1"></p> </div>
+
+</div>
+<div class="eventC">
+
+    <div class="eventCode">EVENT.CODE</div>
+    <div class="eventResC"><p id="eventResC1"></p></div>
+
+</div>
+<div class="eventW">
+
+    <div class="eventWhich">EVENT.WHICH</div>
+    <div class="eventResW"><p id="eventResW1"></p></div>
+
+</div>
+
+
+
+
+
+    </div>
+
+<!-- <script>
+
+let textBox = document.getElementById('message');
+textBox.addEventListener('keydown', (event) => {
+    document.getElementById("eventResK1").innerHTML = (event.key);
+    document.getElementById("eventResC1").innerHTML = (event.code);
+    document.getElementById("eventResW1").innerHTML = (event.which);
+
+});
+
+
+</script> -->
+
+
+
+</body>
+</html>
