@@ -11,7 +11,6 @@ padding: 0px;
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    background-color: rgb(206, 206, 206);
 }
 
 .middle{
@@ -19,9 +18,9 @@ padding: 0px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  justify-content: space-around;
+ 
     height: 350px;
-    background-color: rgb(160, 160, 160);
+    
     width: 100%;
 }
 
@@ -109,3 +108,11 @@ height: 180px;
 /* background: url(./pic/di.jpg) 50% 227px no-repeat fixed; */
 width: 100%;
 background-color: rgb(255, 255, 255);
+}
+
+#middleman{
+    width: 100px;
+    height: 150px;
+background-color: blue;
+
+}

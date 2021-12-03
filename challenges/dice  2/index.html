@@ -34,18 +34,40 @@
     </div>
 
 </div>
+<div id="button"><button id="roll">ROLL</button></div></div>
+
+
+    
+<div id="middleman"></div>
+
+
+
+
+<div class="dice"><div class="titleA">PLAYER 2</div>
+
+
+
+<div id="cogamearea">
+
+    <div id="gamearea">0</div>
+    <div id="dice1"> 
+
+        <ul id="list">
+
+
+
+
+        </ul>
+    <!-- <img src="./pic/di.jpg" height="190px"> -->
+    </div>
+
+</div>
 <div id="button"><button id="roll">ROLL</button>
 </div></div>
 
 
 
-
 </div>
-
-
-<script src='./script.js'></script>
-
-
 
 <script>
 
@@ -55,25 +77,25 @@
 
 
 
-// let list = [];
-// let sum = 0;
-// let button = document.getElementById("roll");
-// let write = document.getElementById("gamearea");
-// const pic = document.getElementById("dice1")
+let list = [];
+let sum = 0;
+let button = document.getElementById("roll");
+let write = document.getElementById("gamearea");
+const pic = document.getElementById("dice1")
 
-// button.onclick=function (){
-// pic.style.background = "url('./pic/di.jpg') no-repeat center center";
-// let score = Math.floor(Math.random() * 6);
-// list.push(score);
-// sum += score;
+button.onclick=function (){
+pic.style.background = "url('./pic/di.jpg') no-repeat center center";
+let score = Math.floor(Math.random() * 6);
+list.push(score);
+sum += score;
 
-// write.innerHTML = sum;
+write.innerHTML = sum;
 
-// if (sum >= 20){
-// write.innerHTML = (`congratulation last dice: ${score} and your total score is: ${sum}`), sum =0, list.length = 0;}
-// else if (score <= 1){
-// write.innerHTML = (`your last dice was: ${score} game over `), sum =0, list.length = 0;}
-// }
+if (sum >= 20){
+write.innerHTML = (`congratulation last dice: ${score} and your total score is: ${sum}`), sum =0, list.length = 0;}
+else if (score <= 1){
+write.innerHTML = (`your last dice was: ${score} game over `), sum =0, list.length = 0;}
+}
 
 
 
